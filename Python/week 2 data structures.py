@@ -37,7 +37,7 @@ del my_list[-1]
 print(Ans)
 
 #sorting the list
-my_list.sort()
+my_list.sort(reverse=False)
 print(Ans)
 
 #find and print a certain index
