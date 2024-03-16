@@ -9,7 +9,35 @@
             "request": "launch",
             "type": "dart",
             "console": "terminal",
-            "program": "C:/Users/Admin/Documents/PLP/Dart/week 2 functions.dart"
+            "program": "C:/Users/Admin/Documents/PLP/Dart/week 2 functions.dart",
+        },
+        {
+            "name": "Week 3",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal",
+            "program": "C:/Users/Admin/Documents/PLP/Dart/week_3_control flow.dart"
+        },
+        {
+            "name": "Hackathon Dart",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal",
+            "program": "C:/Users/Admin/Documents/PLP/DART-HACKATHON-REPOSITORY/program1..dart"
+        },
+        {
+            "name": "Control Flow",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal",
+            "program": "C:/Users/Admin/Documents/PLP/DART-HACKATHON-REPOSITORY/controlflow.dart"
+        },
+        {
+            "name": "Hackathon Functions",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal",
+            "program": "C:/Users/Admin/Documents/PLP/DART-HACKATHON-REPOSITORY/functions.dart"
         }
     ]
 }
