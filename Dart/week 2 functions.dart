@@ -42,7 +42,7 @@ void main() {
     return length;
   }
 //The Return first element function
-  String getFirstElement(listInput) {
+  String getFirstElement(givenList) {
     String elementOne = listInput[0];
     return elementOne;
   }
@@ -51,5 +51,5 @@ void main() {
   print("The Product is: ${multiplyTwo(value1, value2)}");
   print("The Quotient is: ${divideTwo(value1, value2)}");
   print("The Length of your word is: ${stringLength(stringInput)}");
-  print("The First element of your list is: ${getFirstElement(listInput)}");
+  print("The First element of your list is: ${getFirstElement(givenList)}");
 }
