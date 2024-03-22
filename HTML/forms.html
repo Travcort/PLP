@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+        <style>
+            .body-container {
+                width: 100%;
+                padding: 10px;
+            }
+            .image-div img {
+                width: 50%;
+                float: left;
+                margin: 0;
+            }
+            .form-box {
+                width: 50%;
+                align-items: center;
+                float: left;
+                margin: auto;
+            }
+            form {
+                margin: 100px auto;
+                color: black;
+                background-color:hsl(254, 22%, 62%);
+            }
+            h1 {
+                text-align: center;
+            }
+            fieldset {
+                border: none;
+                padding: 10px;
+                align-items: center;
+            }
+            /*.whole-form {
+                align-items: center;
+            }*/
+            .personal-details label {
+                display: block;
+                margin: auto;
+                font-weight: bold;
+                padding-bottom: 10px;
+                width: 100%;
+            }
+            .personal-details label input{
+                display: block;
+                border-radius: 5px;
+            }
+            .gender legend {
+                font-weight: bold;
+            }
+            .gender input {
+                float: left;
+            }
+            .course select {
+                display: block;
+                border-radius: 5px;
+            }
+            .buttons input{
+                width: 100%;
+                display: block;
+                background-color: hwb(123 14% 29%);
+                height: 30px;
+                font-weight: bolder;
+                font-size: large;
+                border-radius: 10px;
+            }
+            .buttons :hover {
+                background-color: hwb(0 2% 35%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="body-container">
+            <div class="image-div">
+                <img src="https://images.unsplash.com/photo-1617031035670-717010ecf01e?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            </div>
+            <div class="form-box">
+                <form class="whole-form">
+                    <h1>PERSONAL DETAILS FORM</h1>
+                    <fieldset class="personal-details">
+                        <label for="name">Name:
+                            <input id="name" type="text" placeholder="Input your Name Here" required>
+                        </label>
+                        <label for="birth">Date of Birth:
+                            <input id="birth" type="date" placeholder="DD/MM/YYYY" required>
+                        </label>
+                        <fieldset class="gender">
+                            <legend>Gender:</legend>
+                            <label for="female">Female
+                                <input id="female" type="radio" name="gender" checked>
+                            </label>
+                            <label for="male">Male
+                                <input id="male" type="radio" name="gender">
+                            </label>
+                            <label for="notSay">Prefer Not to Say
+                                <input id="notSay" type="radio" name="gender">
+                            </label>
+                        </fieldset>
+                        <label for="address">Address:
+                            <input id="address" placeholder="P.O Box 7070-60200" type="text" required>
+                        </label>
+                        <label for="tel">Tel:
+                            <input id="tel" type="tel" placeholder="+(xxx) xxx xxx xxx" required>
+                        </label>
+                        <label for="email">Email:
+                            <input type="email" required id="email" placeholder="example@mail.com">
+                        </label>
+                        <label for="course" class="course">Course:
+                            <select id="course" required>
+                                <option value="">Select Your Course</option>
+                                <option value="software">Software Engineering</option>
+                                <option value="electrical">Electrical Engineering</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="mechatronics">Mechatronics Engineering</option>
+                                <option value="computer">Computer Science</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset class="buttons">
+                        <input type="button" class="submit-button" value="Submit">
+                        <input type="reset" class="cancel-button" value="Cancel">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
